@@ -31,7 +31,16 @@ function button()
         lichsu.value = text;
     }
     // Số dư hiện tại
-    if (loai == "Thu Nhập")
+    if (tien == "")
+    {
+        alert("Hãy nhập số tiền vào!!!")
+    } else if (ngay == "")
+    {
+        alert("Hãy chọn ngày!!!")
+    }  else if (ghichu == "")
+    {
+        alert("Hãy nhập ghi chú vào. Chứ không nhớ là tiền đó đâu ra đâu!!!")
+    }  else if (loai == "Thu Nhập")
     {   tien = parseFloat(tien)
         du = du + tien;
         document.getElementById("sodu").innerHTML = du;
