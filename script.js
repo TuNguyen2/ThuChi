@@ -27,7 +27,7 @@ function button()
         alert("Hãy nhập ghi chú vào. Chứ không nhớ là tiền đó đâu ra đâu!!!")
     }  else
     { 
-        var text =  "" + loai  + "; " + ngay + "; " + tien + " (" + ghichu + ")"  +"\n"+ laygitricu()  ; 
+        var text =  "" + loai  + "; " + ngay + "; " + tien +"vnđ (" + ghichu + ")"  +"\n"+ laygitricu()  ; 
         lichsu.value = text;
     }
     // Số dư hiện tại
