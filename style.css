@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(to right, #85D8CE, #085078);
+  }
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#btn 
+{
+    text-align: center;    
+}

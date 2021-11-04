@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thu-Chi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+    <div id="app">
+        
+        <table>
+            <tr>
+                <td>
+                    Nhập số tiền: 
+                </td>
+                <td>
+                    <input type="number", id="sotien" >
+                </td>
+            </tr>
+
+            <tr>
+                <td>Loại Phát Sinh:</td>
+                <td> 
+                        <select name="loai", id="loai">
+                            <option value="Thu Nhập">Thu Nhập</option>
+                            <option value="Chi Phí" >Chi Phí</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Ngày Phát Sinh:</td>
+                <td> <input type="date", id="ngay" ></td>
+            </tr>
+
+            <tr>
+                <td>Ghi chú:</td>
+                <td><input type="text", id="ghichu"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2", id="btn"> 
+                    <button onclick="button()"> Lưu </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Số dư hiện hành:</td>
+                <td> 
+                    <div id="sodu"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Lịch sử giao dịch:</td>
+            </tr>
+
+            <tr>
+                <td colspan="2"> <textarea name="" id="lichsu" cols="40" rows="10" ></textarea> 
+                     
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script><script  src="script.js"></script>
+</body>
+</html>
